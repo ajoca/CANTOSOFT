@@ -294,14 +294,14 @@ Notas finales:
 ---------------------------------
 13) CAPTURAS DE PANTALLA
 ---------------------------------
-Las capturas se encuentran en la carpeta: ./imgs
+## 📸 Capturas de pantalla
 
-- ./imgs/1.png
-- ./imgs/2.png
-- ./imgs/4.png
-- ./imgs/6.png
-- ./imgs/7.png
-- ./imgs/33.png
-- ./imgs/55.png
+![Vista 1](imgs/1.png)
+![Vista 2](imgs/2.png)
+![Vista 4](imgs/4.png)
+![Vista 6](imgs/6.png)
+![Vista 7](imgs/7.png)
+![Vista 33](imgs/33.png)
+![Vista 55](imgs/55.png)
 
 
