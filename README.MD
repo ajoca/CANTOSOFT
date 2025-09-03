@@ -292,9 +292,9 @@ Notas finales:
 - Este repo debe estar sanitizado: sin secretos ni dumps pesados de instalación.
 - Si se requiere un dump de DB de ejemplo, publicarlo como release adjunto o mantenerlo fuera del repo.
 ---------------------------------
-13) CAPTURAS DE PANTALLA
----------------------------------
 ## 📸 Capturas de pantalla
+---------------------------------
+
 
 ![Vista 1](imgs/1.png)
 ![Vista 2](imgs/2.png)
