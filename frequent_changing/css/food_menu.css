@@ -1,0 +1,219 @@
+.header_custom {
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #fff;
+    padding: 0px 0;
+    padding-top: 43px;
+    scrollbar-width: thin;
+    scrollbar-color: #7367f0 #f8f9fa;
+    margin-top: 40px;
+}
+
+.header_custom::-webkit-scrollbar {
+    height: 8px;
+}
+
+.header_custom::-webkit-scrollbar-thumb {
+    background-color: #7367f0;
+    border-radius: 4px;
+}
+
+.header_custom::-webkit-scrollbar-track {
+    background-color: #f8f9fa;
+}
+
+
+.header_custom div span {
+    margin-left: 8px;
+    font-size: 17px;
+    color: gray;
+}
+
+
+.header_custom .active1 {
+    color: white !important;
+}
+.active1 span {
+    margin-left: 8px;
+    font-size: 12px;
+    color: white !important;
+}
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(233px, 1fr));
+    gap: 20px;
+    /* padding: 20px; */
+}
+
+.menu-item-custom {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left; 
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.menu-item-custom:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item-custom img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-item-custom .details {
+    padding: 15px;
+}
+.menu-item-custom .details h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #212121;
+}
+.menu-item-custom .details .price {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.menu-item-custom .details .more-btn i{
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.menu-item-custom .details .category_custom {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+}
+.class_category{
+    text-align: center;
+}
+
+.menu-item-custom .details h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.min_div_height{
+    min-height:900px
+}
+.menu-container{
+    padding-top: 4px !important;
+}
+.cate_img{
+    width: 94%;
+    position: relative;
+    margin-top: -45px;
+    z-index: 99999;
+}
+
+.item_counter{
+    font-size:12px;
+    color:gray;
+    margin-bottom:0px
+}
+.menu-item-custom .action-overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: #F0F1F7;
+    height: 50px;
+    display: none;
+}
+.menu-item-custom .actions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.menu-item-custom .actions .buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-item-custom .actions a {
+   text-decoration: none;
+   margin-top: 20px;
+   border-radius: 50%;
+}
+.menu-item-custom .actions a i{
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 35px;
+    height: 35px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+ 
+
+.menu-item-custom .actions .availability {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu-item-custom .actions .availability, .menu-item-custom .actions .buttons {
+    height: 30px;
+}
+
+
+.menu-item-custom .actions .availability input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.view-details {
+    background-color: #7367f0; /* Blue */
+    color: #ffffff;
+}
+
+.view-details:hover {
+    background-color: #665aee; /* Darker Blue */
+}
+
+.edit {
+    background-color: #FFBE00; /* Orange */
+    color: #ffffff;
+}
+
+.edit:hover {
+    background-color: #d4880d; /* Darker Orange */
+}
+
+.assign-modifier {
+    background-color: #2ecc71; /* Green */
+    color: #ffffff;
+}
+
+.assign-modifier:hover {
+    background-color: #25a35a; /* Darker Green */
+}
+
+.delete {
+    background-color: #FF1010; /* Red */
+    color: #ffffff;
+}
+
+.delete:hover {
+    background-color: #db0b0b; /* Darker Red */
+}
+.call_details{
+    cursor: pointer;
+}

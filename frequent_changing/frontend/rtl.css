@@ -1,0 +1,20 @@
+.arabic-lang .banner.banner-4 .banner-inner{
+    transform: scaleX(-1);
+}
+
+.arabic-lang .banner-item{
+    transform: scaleX(-1);
+}
+
+.arabic-lang .owl-wrapper{
+    direction: ltr;
+}
+
+body.arabic-lang.cart-open .cart-sidebar{
+    left: 0 !important;
+    right: unset !important;
+}
+
+.arabic-lang .slick-slider{
+    direction: ltr;
+}

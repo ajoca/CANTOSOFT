@@ -1,0 +1,36 @@
+# Dependencias / caches comunes
+vendor/
+composer.lock
+node_modules/
+npm-debug.log*
+
+# CodeIgniter / caches
+application/cache/*
+!application/cache/index.html
+application/logs/*
+!application/logs/index.html
+
+# Configs con secretos (subí sólo los .example)
+application/config/database.php
+application/config/config.php
+
+# Archivos del sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Subidas de usuarios (si corresponde)
+uploads/
+public/uploads/
+assets/uploads/
+
+# Entornos
+.env
+.env.*
+.env
+.env.*
+application/config/stripe.php
+application/config/paypal.php
+application/config/config.php

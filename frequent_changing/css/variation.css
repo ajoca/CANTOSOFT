@@ -1,0 +1,23 @@
+.text_middle{
+    vertical-align: middle !important;
+}
+.remove_row{
+    color: red;
+    cursor: pointer;
+}
+.row_view_details{
+    cursor: pointer;
+}
+.row_edit{
+    cursor: pointer;
+}
+.row_delete{
+    color: red;
+    cursor: pointer;
+}
+.margin_0{
+    margin: 0px ;
+}
+.table-responsive .table_margin_top_0{
+    margin-top: 0px !important;
+}

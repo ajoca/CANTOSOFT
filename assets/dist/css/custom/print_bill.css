@@ -1,0 +1,96 @@
+body {
+  color: black;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding-top: 0px;
+}
+
+.btn {
+  border-radius: 0;
+  margin-bottom: 5px;
+}
+
+.bootbox .modal-footer {
+  border-top: 0;
+  text-align: center;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+.order_barcodes img {
+  float: none !important;
+  margin-top: 5px;
+}
+.ir_txt_center {
+  text-align: center !important;
+}
+.ir_wid_70 {
+  width: 70%; !important;
+}
+.ir_wid_90 {
+  width: 90%; !important;
+}
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  #wrapper {
+    margin: 0 auto;
+  }
+
+  .no-border {
+    border: none !important;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid #ddd !important;
+  }
+
+  table tfoot {
+    display: table-row-group;
+  }
+  .ir_txt_center {
+    text-align: center !important;
+  }
+  .ir_txt_right {
+    text-align: right !important;
+  }
+  .ir_wid_70 {
+    width: 70%; !important;
+  }
+  .ir_wid_90 {
+    width: 90%; !important;
+  }
+  .arabic_text_left_is{
+    unicode-bidi: unset;
+  }
+}
+.arabic_text_left_is{
+  unicode-bidi: unset;
+}
+#barcode_invoice canvas{
+  width: 25% !important;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 2px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0px solid black;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+padding: 2px;
+line-height: 1.42857143;
+vertical-align: top;
+border-top: 0px solid black;
+}

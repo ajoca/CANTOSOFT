@@ -1,0 +1,8 @@
+.dataTables_wrapper .top-right-item .btn_list svg {
+    width: 15px;
+    height: auto;
+    margin-right: 0px !important;
+}
+.wrapper .main-content-wrapper .box-wrapper {
+    -webkit-animation: unset;
+}

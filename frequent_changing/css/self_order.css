@@ -1,0 +1,22 @@
+.sos_width_100{
+    width: 100% !important;
+}
+.sos_display_none{
+    display: none;
+}
+.download_qrcode{
+    text-align: center;
+    border: 2px solid #e5e5e5;
+    padding: 5px;
+    border-radius: 10px;
+    text-underline: none;
+}
+.download_qrcode:hover{
+    background-color: #e5e5e5;
+}
+.a_qrcode{
+    text-decoration: none;
+}
+.text_center{
+    text-align: center;
+}

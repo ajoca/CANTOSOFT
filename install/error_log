@@ -1,0 +1,4 @@
+[18-Aug-2025 21:04:52 UTC] PHP Notice:  Undefined variable: curl_handle in /home2/adikhanofficial/adikhanofficial/sandbox.adikhanofficial.com/install/install.php on line 158
+[18-Aug-2025 21:04:52 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home2/adikhanofficial/adikhanofficial/sandbox.adikhanofficial.com/install/install.php on line 158
+[18-Aug-2025 21:05:30 UTC] PHP Notice:  Undefined variable: curl_handle in /home2/adikhanofficial/adikhanofficial/sandbox.adikhanofficial.com/install/install.php on line 606
+[18-Aug-2025 21:05:30 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home2/adikhanofficial/adikhanofficial/sandbox.adikhanofficial.com/install/install.php on line 606

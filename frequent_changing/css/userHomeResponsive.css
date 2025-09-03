@@ -1,0 +1,327 @@
+@media only screen and (min-width: 1400px) and (max-width: 5000px) {
+    .dashboardDateRangeWrap{
+        display: flex;
+    }
+    .dashboardDateRange {
+        display: flex;
+    }
+    .dashboardDateRange .select2-container {
+        width: 200px !important;
+        margin-right: 8px;
+    }
+    .dashboardDateRange input {
+        width: 200px !important;
+    }
+    .dashboardDateRange .select2-container--default .select2-selection--single, .dashboardDateRange .select2-selection .select2-selection--single {
+        height: 42px !important;
+    }
+    .dashboardDateRange button {
+        height: 42px !important;
+    }
+    .dashboard_content .wrapper .main-content-wrapper {
+        padding-right: 0px;
+    }
+    #dashboard_search{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/*  Laptop PC: 1200px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* Dashbaord CSS */
+    .grid_view .card-icon{
+        top: 10px;
+        right: 12px;
+        width: 35px;
+        height: 35px;
+    }
+    .grid_view .btn-dblue1 svg{
+        width: 16px;
+    }
+    .dashboardDateRangeWrap{
+        display: flex;
+    }
+    .dashboardDateRange {
+        display: grid;
+        grid-template-columns: 28.6% 28.6% 28.6% 10%;
+        grid-gap: 1.33%;
+    }
+    .dashboardDateRange .select2-container {
+        width: 100% !important;
+    }
+    .dashboardDateRange .select2-container--default .select2-selection--single, .dashboardDateRange .select2-selection .select2-selection--single {
+        height: 42px !important;
+    }
+    .dashboardDateRange button {
+        height: 42px !important;
+    }
+    .dashboard_content .wrapper .main-content-wrapper {
+        padding-right: 0px;
+    }
+}
+/*  Tablet PC: 992px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* Dashbaord CSS */
+    .grid_view {
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 1.90%;
+    }
+    .grid_view .btn-dblue1 {
+        margin-bottom: 15px;
+    }
+    .dashboardDateRange {
+        display: grid;
+        grid-template-columns: 28.6% 28.6% 28.6% 10%;
+        grid-gap: 1.33%;
+    }
+    .dashboardDateRangeWrap h3 span{
+        margin-bottom: 10px;
+    }
+    .dashboardDateRange .select2-container {
+        width: 100% !important;
+    }
+    .dashboardDateRange .select2-container--default .select2-selection--single, .dashboardDateRange .select2-selection .select2-selection--single {
+        height: 42px !important;
+    }
+    .dashboardDateRange button {
+        height: 42px !important;
+    }
+    .dashboard_content .wrapper .main-content-wrapper {
+        padding-right: 0px;
+    }
+}
+
+/*  Tablet Mobile: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* Dashbaord CSS */
+    .grid_view {
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 1.90%;
+    }
+    .grid_view .btn-dblue1 {
+        margin-bottom: 15px;
+    }
+    .grid_view h5 {
+        font-size: 18px;
+    }
+    .dashboardDateRangeWrap h3 span{
+        margin-bottom: 10px;
+    }
+    .dashboardDateRange {
+        display: grid;
+        grid-template-columns: 28.6% 28.6% 28.6% 10%;
+        grid-gap: 1.33%;
+    }
+    .dashboardDateRange .select2-container {
+        width: 100% !important;
+    }
+    .dashboardDateRange .select2-container--default .select2-selection--single, .dashboardDateRange .select2-selection .select2-selection--single {
+        height: 42px !important;
+    }
+    .dashboardDateRange button {
+        height: 42px !important;
+    }
+    .dashboard_content .wrapper .main-content-wrapper {
+        padding-right: 0px;
+    }
+}
+
+/*  Mobile : 576px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* Dashbaord CSS */
+    .dashboard_content .content-header {
+        padding: 0px 0px 5px 0px;
+    }
+    .main-header {
+        padding: 0px;
+    }
+    .grid_view {
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 1.90%;
+    }
+    .grid_view .btn-dblue1 {
+        margin-bottom: 15px;
+    }
+    .grid_view h5 {
+        font-size: 18px;
+    }
+    .dashboardDateRange {
+        display: grid;
+        grid-template-columns: 28.6% 28.6% 28.6% 10%;
+        grid-gap: 1.33%;
+    }
+    .dashboardDateRangeWrap h3 span{
+        margin-bottom: 10px;
+    }
+    .dashboardDateRange .select2-container {
+        width: 100% !important;
+    }
+    .dashboardDateRange .select2-container--default .select2-selection--single, .dashboardDateRange .select2-selection .select2-selection--single {
+        height: 42px !important;
+    }
+    .dashboardDateRange button {
+        height: 42px !important;
+    }
+    .dashboard_content .wrapper .main-content-wrapper {
+        padding-right: 0px;
+    }
+}
+
+
+/*  Mobile Small Device: 450px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 450px) and (max-width: 575.98px) {
+    /* Dashbaord CSS */
+    .dashboard_content .content-header {
+        padding: 0px 0px 5px 0px;
+    }
+    .main-header {
+        padding: 0px;
+    }
+    .grid_view {
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 1.90%;
+    }
+    .grid_view .btn-dblue1 {
+        margin-bottom: 5px;
+    }
+    .grid_view h5 {
+        font-size: 18px;
+    }
+    .grid_view .card-icon {
+        top: 12px;
+        right: 12px;
+        width: 35px;
+        height: 35px;
+    }
+    .grid_view  p {
+        font-size: 14px;
+    }
+    .dashboardDateRangeWrap h3 span{
+        margin-bottom: 10px;
+    }
+    .dashboardDateRange {
+        display: grid;
+        grid-template-columns: 28.6% 28.6% 28.6% 10%;
+        grid-gap: 1.33%;
+    }
+    .dashboardDateRange .select2-container {
+        width: 100% !important;
+    }
+    .dashboardDateRange .select2-container--default .select2-selection--single, .dashboardDateRange .select2-selection .select2-selection--single {
+        height: 42px !important;
+    }
+    .dashboardDateRange button {
+        height: 42px !important;
+    }
+    .dashboard_content .wrapper .main-content-wrapper {
+        padding-right: 0px;
+    }
+}
+/*  Mobile Small Device: 320px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 320px) and (max-width: 449.98px) {
+     /* Dashbaord CSS */
+     .grid_view {
+        grid-template-columns: 49% 49%;
+        grid-gap: 2%;
+    }
+    .grid_view .btn-dblue1 {
+        margin-bottom: 3px;
+    }
+    .grid_view  p {
+        font-size: 14px;
+    }
+    .grid_view h5 {
+        font-size: 16px;
+    }
+    .grid_view .card-icon {
+        top: 12px;
+        right: 12px;
+        width: 35px;
+        height: 35px;
+    }
+    .main-header {
+        padding: 0px;
+    }
+    .dashboardDateRangeWrap h3 span{
+        margin-bottom: 10px;
+    }
+    .dashboard_content_header {
+        flex-direction: column;
+        justify-content: start;
+    }
+    .dashboard_content_header {
+        align-items: unset;
+    }
+    .dashboard_content_header form{
+        margin-left: 0px !important;
+    }
+    .dashboardDateRange {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        grid-gap: 2%;
+    }
+    .dashboardDateRange .select2-container {
+        width: 100% !important;
+    }
+    .dashboardDateRange button {
+        margin-top: 2px; 
+    }
+    .dashboard_content .wrapper .main-content-wrapper {
+        padding-right: 0px;
+    }
+    .dashboard_content .content-header {
+        padding: 0px 0px 5px 0px;
+    }
+    .char_elastick{
+        flex-wrap: wrap;
+    }
+    .box.box-info {
+        padding: 10px;
+    }
+    .user-info-box .user-info{
+        display: none;
+    }
+    .main-header .navbar .wrapper_up_wrapper .hh_wrapper .menu-list li:first-child {
+        width: 110px;
+    }
+    .main-header .navbar .wrapper_up_wrapper .hh_wrapper .screen-list li a {
+        margin: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+.parent_btn{
+    display: none !important;
+}
+.dataTables_info{
+    display: none !important;
+}
+.table_register_details{
+    width: 100% !important;
+    text-align: left !important;
+}
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 694px!important;
+        margin: 1.75rem auto !important;
+    }
+}
+.top_margin_15{
+    margin-top: 15px !important;
+}
+.text_right{
+    text-align: right !important;
+}
+.text_left{
+    text-align: left !important;
+}
+.dt-buttons{
+    float: right !important;
+}

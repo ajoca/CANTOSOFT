@@ -1,0 +1,43 @@
+.active_tmp_btn{
+    background-color: #e3f2fd !important;
+}
+
+.type_temp_div{
+
+}
+.ir_w_50{
+    width: 50% !important;
+}
+.ir_w_m_b_4{
+    margin-bottom: 5px !important;
+}
+
+@media (max-width: 767px) {
+    .order_table_holder .order_holder .single_order .single_order_column .fa-pencil-alt{
+        font-size:30px !important;
+    }
+}
+
+@media (max-width: 1301px) and (min-width: 768px) {
+    .order_table_holder .order_holder .single_order .single_order_column .fa-pencil-alt{
+        font-size:30px !important;
+    }
+}
+.logout_btn_online_order_css{
+    color: white;
+    text-decoration: none;
+}
+.custom_shadow {
+    box-shadow: 0 1px 20px 1px rgb(234,84,85)!important;
+    position: fixed;
+    z-index: 999;
+    inset-block-end: 5%;
+    inset-inline-end: 79px;
+    padding: 11px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    text-decoration: none;
+  }
+ 

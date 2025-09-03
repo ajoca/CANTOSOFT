@@ -1,0 +1,24 @@
+#wrapper {
+    max-width: 366px;
+}
+.text-right{
+    width: 50% !important;
+}
+
+@media print {
+    #wrapper {
+        max-width: 366px;
+    }
+    .text-right{
+        width: 50% !important;
+    }
+    .arabic_text_left_is{
+        unicode-bidi: unset;
+    }
+}
+.arabic_text_left_is{
+    unicode-bidi: unset;
+}
+#barcode_invoice canvas{
+    width: 25% !important;
+}

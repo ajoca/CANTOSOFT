@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.item_detail p.item_name {
+    margin-bottom: 0rem !important;
+}
+
+.item_detail p.item_qty {
+    margin-bottom: 0rem !important;
+}
+
+* {
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+.order_number.table_no{
+    font-weight: 700;
+    font-size: 18px;
+}
+.order_number.customer_name{
+    font-weight: 700;
+    font-size: 21px;
+}
+.order_number.sale_no{
+    font-weight: 500;
+    font-size: 16px;
+}
+#order_holder.order_holder .single_order {
+    border-radius: 18px;
+}
+#order_holder.order_holder .single_order .header_portion {
+    padding: 15px 10px 10px 15px;
+}
+#order_holder.order_holder .single_order .header_portion p.order_number {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+#order_holder.order_holder .single_order .header_portion p.order_duration {
+    padding: 0px 9px;
+    margin: 5px 7px;
+    border-radius: 16px;
+    /* border: 1px solid white; */
+}
+.dark-blue-background {
+    background-color: transparent !important;
+}
+.order_number.order_type{
+    border: 1px solid white;
+    border-radius: 20px;
+    /* padding: 8px 16px; */
+}
+.light-blue-background{
+    background-color: #5176FF;
+}
+.light-yellow-background{
+    background-color: #F1B45E;
+}
+.cook_bg{
+    background-color: #F1B45E;
+}
+.wrapper .main_bottom{
+    background-color: unset;
+}
+body{
+    background-color: #F5F7FA;
+}
+.single_el_wrapper{
+    border-bottom: 1px solid #0000001A;
+}
+.el_wrapper{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px 10px 15px;
+}
+.el_wrapper span{
+    padding-left: 10px;
+}
+.single_item_right_side {
+    padding: 0px 0px 0px 0px;
+}
+.item_name{
+    margin-left: 10px;
+}
+.floatleft.item_detail{
+    padding: 0px 5px 0px 15px !important;
+}
+#order_holder.order_holder .single_order .items_holder .single_item .item_detail p.note {
+    color: #555555;
+    font-size: 12px;
+    padding-left: 22px;
+}
+.item_qty{
+    padding-left: 22px; 
+}
+#order_holder.order_holder .single_order {
+    height: 340px;
+}
+/* .single_order_button_holder button {
+    background: #f1f0f0;
+} */
+.single_item_cooking_status{
+    display: inline-block; 
+    background-color: #E6E6E6; 
+    float:right; 
+    padding: 6px 15px; 
+    border-radius: 20px; 
+    font-size: 12px; 
+    font-weight: 400; 
+    color: #212121;
+}
+.single_order_button_holder {
+    background: #f1f0f0;
+    display: flex;
+    justify-content: space-around;
+}
+.start_cooking_button{
+    background-color: #F1B45E !important;
+    color: white !important;
+}
+.done_cooking{
+    background-color: #34A853;
+    color: white !important;
+}
+/* .single_order_button_holder button:hover {
+    background:rgb(228, 228, 228);
+} */
+
+.wrapper .main_top .top_header h1 {
+    color: white;
+}
+.bg-blue-btn, .bg-red-btn {
+    border: 1px solid;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: transparent !important;
+    color: white;
+}
+.select2-container--default .select2-selection--single {
+    border-color:rgb(255, 255, 255);
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: white;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #ffffff transparent transparent transparent;
+}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #ffffff transparent;
+}
+.single_row_notification .bg-blue-btn, #notification_list_modal .modal-footer .bg-blue-btn, #help_modal .modal-footer .bg-blue-btn{
+    color: white;
+    border: none;
+}

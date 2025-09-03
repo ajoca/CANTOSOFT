@@ -1,0 +1,104 @@
+/*
+  ==========================
+  Custom-checkbox
+*/
+
+.container {
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 14px;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border: 1px solid #d8d6de;
+  border-radius: 3px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.txt_outlet_1{
+  margin-right: 10px !important;
+  margin-bottom: 0px !important;
+}
+.txt_outlet_2{
+  width:100px !important;
+}
+
+#loading_indicator {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 9999;
+}
+#loading_indicator div {
+  text-align: center;
+}
+#loading_indicator i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#loading_indicator .progress_text {
+  margin-top: 10px;
+}
+#loading_indicator .progress_bar {
+  background: #333;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#loading_indicator #progress_bar {
+  background: #4CAF50;
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s;
+}

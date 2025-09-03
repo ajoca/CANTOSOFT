@@ -1,0 +1,32 @@
+.div_btn_middle{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 8px;
+}
+.div_btn_middle a{
+    color: #404040;
+    text-decoration: none;
+}
+.div_active{
+    background-color: white;
+    padding: 7px;
+    border-radius: 8px;
+    color: #0d0d0d !important;
+}
+.show_div_2{
+    font-weight: bold;
+    font-size: 25px;
+}
+.show_div_2 del{
+    color: #9d9d9d;
+    font-size: 18px;
+}
+.yearly_pay{
+    margin-top: 18px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 14%;
+}
+.display_none{
+    display: none;
+}
